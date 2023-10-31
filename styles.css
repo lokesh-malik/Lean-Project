@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+.complexity-input {
+    margin-top: 20px;
+}
+
+.complexity-input label {
+    font-weight: bold;
+}
+
+.complexity-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.complexity-input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.complexity-input button:hover {
+    background-color: #0056b3;
+}
+
+.complexity-result {
+    margin-top: 20px;
+}
+
+.complexity-result p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#complexity-value {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+}
